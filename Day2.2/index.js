@@ -4,7 +4,8 @@ let experience = +window.prompt("years of experience");
 let rating = +window.prompt("yur rating from 1 to 10");
 let baseSalary = +prompt("Enter your base salary:");
 if (isNaN(age) || isNaN(experience) || isNaN(baseSalary)) {
-  alert("Please enter valid numeric values.");}
+  alert("Please enter valid numeric values.");
+}
 document.getElementById(
   "display"
 ).innerHTML = `hello ${myName}, you are ${age} years old`;
@@ -43,13 +44,12 @@ switch (true) {
 console.log(`Your performance is: ${message}`);
 ///////////////////
 
-
 let bonusPercentage = 0;
 
 if (experience >= 0 && experience <= 2) {
   bonusPercentage = 0.1;
 } else if (experience >= 3 && experience <= 5) {
-  bonusPercentage = 0.15; 
+  bonusPercentage = 0.15;
 } else if (experience > 5) {
   bonusPercentage = 0.2;
 }

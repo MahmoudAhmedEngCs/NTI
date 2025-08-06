@@ -6,11 +6,7 @@ let sum = 0;
 for (let i = 0; i < array.length; i++) {
   sum += array[i];
   if (array[i] < 0) {
-<<<<<<< HEAD
-    continue;
-=======
     continue; 
->>>>>>> 2720c0bf52d5aaf4c486922e832da18eb12cf86c
   }
   sumPos += array[i];
 }

@@ -1,0 +1,53 @@
+body {
+        font-family: Arial, sans-serif;
+        background: #f4f4f4;
+        padding: 20px;
+      }
+      h2 {
+        text-align: center;
+      }
+      .form {
+        display: flex;
+        gap: 10px;
+        margin-bottom: 15px;
+      }
+      input,
+      select,
+      button {
+        padding: 8px;
+        font-size: 14px;
+      }
+    
+      button {
+        border: none;
+        cursor: pointer;
+        border-radius: 3px;
+        padding: 5px 8px;
+      }
+      .delete-btn {
+        background: #ff5555;
+        color: white;
+      }
+      .edit-btn {
+        background: #ffaa00;
+        color: white;
+      }
+      .clear-btn {
+        background: #555;
+        color: white;
+      }
+      #search{
+        padding-right: 87.5%;
+      }
+      table {
+  width: 100%;
+  border-collapse: collapse;
+}
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+th {
+  background: #f4f4f4;
+}

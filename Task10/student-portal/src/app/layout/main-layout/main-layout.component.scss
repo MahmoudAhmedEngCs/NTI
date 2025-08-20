@@ -1,0 +1,17 @@
+.navbar {
+display: flex;
+gap: 1rem;
+align-items: center;
+padding: 1rem 1.25rem;
+background: #0b132b;
+}
+.navbar a {
+color: #e0e0e0;
+text-decoration: none;
+padding: .35rem .6rem;
+border-radius: .4rem;
+}
+.navbar a.active { background: #1c2541; }
+
+
+.container { padding: 1.25rem; }
